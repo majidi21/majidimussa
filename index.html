@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAJIDI MAKUMBA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="image/makumba.png" width="126px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </nav>
+            <img src="image/cart.png" width="30px" height="30px">
+            <img src="image/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Get best Fruit and Vegetable! <br> for your better health</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Dolorem animi iusto ipsa corporis. Expedita atque odit quis sequi dolor cupiditate. </p>
+                <a href="#" class="btn">Explore More &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="image/img-pro-02.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="categories">
+            <div class="row">
+                <div class="col-3">
+                    <img src="image/big-img-03.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="image/big-img-02 - Copy.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="image/banner-01.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h1 class="title">Product features</h1>
+        <div class="row">
+            <div class="col-4">
+                <img src="image/gallery-img-08 - Copy.jpg">
+                <h4>Yellow Beans</h4>
+                <p>$10.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="image/gallery-img-03.jpg">
+                <h4>Chill</h4>
+                <p>$50.00</p>
+            </div> <div class="col-4">
+                <img src="image/gallery-img-04.jpg">
+                <h4>Beans</h4>
+                <p>$30.00</p>
+            </div> <div class="col-4">
+                <img src="image/gallery-img-06.jpg">
+                <h4>Beans product</h4>
+                <p>$40.00</p>
+            </div>
+
+            <div class="offer">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="image/blog-img-01.jpg" class="offer-img">
+                        </div>
+                        <div class="col-2">
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <h1>Best Vegetable</h1>
+                            <small>Lorem ipsum dolor. Alias exercitationem voluptas repellat minima, ab, veniam recusandae ullam eveniet</small>
+                            <a href="#" class="btn">Buy now &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>  
+    </div>
+
+    <div class="testmony">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugit ab, labore nesciunt atque illum necessitatibus</p>
+                    <img src="image/picha.jpg">
+                    <h3>Majidi Salimu</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugit ab, labore nesciunt atque illum necessitatibus</p>
+                    <img src="image/picha.jpg">
+                    <h3>Majidi Salimu</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugit ab, labore nesciunt atque illum necessitatibus</p>
+                    <img src="image/picha.jpg">
+                    <h3>Majidi Salimu</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Android and Ios mobile Phone</p>
+                    <div class="app-logo">
+                        <img src="image/play-store.png">
+                        <img src="image/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="image/makumba.png">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate esse reprehenderit nesciunt natus duci</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Use full Link</h3>
+                    <ul>
+                        <li>coupon</li>
+                        <li>Blog post</li>
+                        <li>Join us</li>
+                        <li>Return policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twiter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copy-right">Copy right 2021- Majidi Makumba</p>
+        </div>
+    </div>
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(menuitems.style.maxHeight == "0px")
+            {
+                menuitems.style.maxHeight = "200px";
+            }
+            else{
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+   </div>
+</html>
